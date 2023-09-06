@@ -1,9 +1,8 @@
 <html>
     <head>
+        <meta http-equiv="Content-Language" content="en-us">
         <base href="https://www.gjss.me/" target="_blank">
-        <title> Gil Serrano
-            <link rel="stylesheet" type="text/css" href="indexstyle.css"/>
-        </title>        
+        <title> Gil Serrano</title>        
     </head>
     <body>
         <div class="background-img">
@@ -22,25 +21,29 @@
             }
 
             @font-face {
-                font-family: "InterBlack";
-                src: url(Inter-Black.woff2);
-                font: normal;
-            }
+                font-family: "InterBa";
+                src: url("Fonts/Inter-Black.otf") format('embedded-opentype') local(Inter), sans-serif,
+                url('Fonts/Inter-Black.woff2') format('woff2'),
+                url('Fonts/Inter-Black.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
 
-            @font-face {
-                font-family: "iBold";
-                src: url(Inter-Bold.woff2);
-                font: bold;
+                font-family: "InterBo";
+                src: url("Fonts/Inter-Bold.otf") format('embedded-opentype') local(Inter), sans-serif,
+                url('Fonts/Inter-Bold.woff2') format('woff2'),
+                url('Fonts/Inter-Bold.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
             }
 
             h1 {
-                font-family: "InterBlack";
+                font-family: InterBa;
                 color: #FAF9F6;
                 font-size: 50px;
             }
 
             p {
-                font-family: "iBold";
+                font-family: InterBo;
                 color: #FAF9F6;
                 font-size: 16px;
             }
