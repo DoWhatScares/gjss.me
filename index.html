@@ -1,75 +1,71 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Language" content="en-us"/>
-        <meta http-equiv="Access-Control-Allow-Origin" content="https://www.dowhatscares.github.io"/>
-        <base href="https://www.gjss.me/" target="_blank">
-        <script src="index.js"></script>
-        <title> Gil Serrano</title>        
-    </head>
-    <body>
-        <div class="background-img">
-            <div class="titlebox">
-                <a href="mailto:gsesa@icloud.com"><h1>GIL SERRANO</h1></a>
-                <br>
-                <a href=""><p>GALLERY</p></a>
-            </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gil Serrano</title>
+</head>
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@200&display=swap');
+    .p1 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: black;
+    }
+    h1 a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+    display: inline-block;
+    }
+    p {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+    color: black;
+    }
+
+    .boxHe{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 1px;
+    }
+    .boxP{
+    text-align: right center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    }
+    @keyframes fadeIn {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+        }
+    }
+
+    .fade-in {
+    animation: fadeIn 1s linear;
+    }
+    h1:hover {
+    color: gray; /* Change to the color you prefer */
+    }
+    body {
+        background-color: white;
+    }
+
+</style>
+<body>
+    <div>
+        <div class="fade-in">
+            <h1 class="boxHe p1" clas><a href="mailto:mail@gjss.me">GIL SERRANO</a></h1>
+            <p class="boxP">This site is under consturction. For now, let me introduce myself: I'm Gil Serrano, an inconspicuous polymath and artist hailing from northwest San Antonio. I've spent the last few years refining my voice,
+                and soon, you'll find my manifestations here.</p>
         </div>
-
-        <style>
-            * {
-                margin: 0;
-                padding: 0;
-
-            }
-
-            @font-face {
-                font-family: "InterBa";
-                src: url('Fonts/Inter-Black.woff2') format('woff2'), local(Inter), sans-serif;
-                font-weight: normal;
-                font-style: normal;
-
-                font-family: "InterBo";
-                src: url('Fonts/Inter-Bold.woff2') format('woff2'),local(Inter), sans-serif;
-                font-weight: normal;
-                font-style: normal;
-            }
-
-            h1 {
-                font-family: "InterBa";
-                color: #FAF9F6;
-                font-size: 50px;
-            }
-
-            p {
-                font-family: "InterBo";
-                color: #FAF9F6;
-                font-size: 16px;
-            }
-
-            .background-img{
-                background-image: url("./tree-min.jpg");
-                background-size: cover;
-                background-repeat: no-repeat;
-                height: 100vh;
-            }
-
-            .titlebox{
-                margin: auto;
-                text-align: center;
-                max-width: 1920px;
-                padding-top: 1rem;
-                padding-bottom: 1rem;
-                padding-left: 2rem;
-                padding-right: 2rem;
-            }
-
-            a {
-                text-decoration: none;
-                color: black;
-                display: inline-block;
-            }
-        </style>
-
-    </body>
+    </div>
+</body>
 </html>
+
