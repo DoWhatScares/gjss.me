@@ -1,57 +1,32 @@
-/* BODY */
-body{
-    display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
-    grid-gap: 10px;
-    color: white;
+body {
+    background-image: url(back1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-/* CONTAINERS */
-.container{
-    display: flex;
+img {
+    max-height: 65%;
+    max-width: 65%;
 }
 
-.item{
-    margin: 0px 5px 0px 8px;
-    justify-content: left;
-    align-items: center;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-.title{
-    margin: 0 8px 0 5px;
-    justify-content: right;
-    align-items: center;
-    grid-row: 1;
-    grid-column: 2;
+.div {
+    max-height: 65%;
+    max-width: 65%;
 }
 
-.divMenu{
-    margin: 0 5px 0 8px;
-    justify-content: left;
-    align-items: center;
-    grid-row: 1;
-    grid-column: 3;
-}
-
-/* FONTS */
-h1 {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    color: black;
-}
 h2 {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 300;
     font-style: normal;
-    color: black;
-}
-p{
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 17px;
-    color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: whitesmoke;
+    font-size: 25px !important;
+    max-width: 700px;
 }
